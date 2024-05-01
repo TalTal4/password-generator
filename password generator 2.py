@@ -22,7 +22,7 @@ def generate_password(length, include_lowercase, include_uppercase, include_digi
     return password
 
 # Prompt the user for desired character sets
-num_password = int(input("how much password to generate:"))
+num_password = int(input("how much passwords to generate:"))
 length = int(input("Enter the desired password length: "))
 include_lowercase = input("Include lowercase letters? (y/n): ").lower() == "y"
 include_uppercase = input("Include uppercase letters? (y/n): ").lower() == "y"
